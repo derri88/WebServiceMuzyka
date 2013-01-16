@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Zalogowany.master.cs" Inherits="ProjektMuzyka.Muzyka.Zalogowany.Zalogowany" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<link href="~/Muzyka/CSS/Main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server" class="Brzegi Centered">
+        <header>
+            <div>
+                <div class="FloatLeft">
+                    <a id="Logo" runat="server" href="~/">Projekt Grupowy</a>
+                </div>
+                <div id="Konto" class="FloatRight LoginRegisterSize">
+                    <div id="Witaj" class="FloatLeft">
+                        <asp:Label ID="Powitanie" runat="server" Text="Label">Witaj!</asp:Label>
+                    </div>
+                    <div id="Wyloguj" class="FloatRight">
+                        <asp:LinkButton ID="WylogujB" runat="server" OnClick="WylogujB_Click">Wyloguj</asp:LinkButton>
+                    </div>
+                   <%-- <div class="Width100">&nbsp;</div>--%>
+                    <div id="ZarzadzanieKontem" class="FloatLeft">
+                        <asp:LinkButton ID="ZarzadzanieKontemB" runat="server" OnClick="ZarzadzanieKontemB_Click">Zarządzaj kontem</asp:LinkButton>
+                    </div>
+                    <div id="MojeOceny" class="FloatRight">
+                        <asp:LinkButton ID="MojeOcenyB" runat="server">Moje Oceny</asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+        </header>
+        <div id="TrueBody">
+            <h6>&nbsp</h6>
+            <div id="SectionLoginRegister" class="FloatRight LoginRegisterSize">
+                
+            </div>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <h6>&nbsp</h6>
+        </div>
+        <footer>
+            <div id="Foot" class="FloatLeft">
+                <h5>Autorzy: Dominik Derecki&reg, Alicja Cybulska&reg, Jakub Michniewicz&reg</h5>
+
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

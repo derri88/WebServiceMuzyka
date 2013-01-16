@@ -1,0 +1,229 @@
+﻿body {
+}
+
+/*------------* HEADER * -------------------------*/
+header {
+    text-align: center;
+}
+
+    header a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+
+#LoginRegister {
+    background-color: #CCCCCC;
+    width: 100%;
+}
+#LogOffInfo {
+    color: #FF0000;
+}
+
+
+
+#InfoProjekt {
+    width: 70%;
+}
+
+/*------------* END HEADER *----------------------*/
+
+
+/*------------* BODY *----------------------*/
+#TrueBody h6 {
+    height: 0px;
+    width: 100%;
+    font-size: 4.1px;
+}
+
+#SectionLoginRegister {
+    background-color: #CCCCCC;
+}
+
+#Logowanie {
+    border-width: 1px;
+    text-align: center;
+    background-color: #CCCCCC;
+    width: 100%;
+    border-top-style: solid;
+}
+
+#Rejestracja {
+    border-width: 1px;
+    text-align: center;
+    background-color: #CCCCCC;
+    width: 100%;
+    border-top-style: solid;
+}
+
+#Newsy {
+    width: 20%;
+}
+
+.LoginRegisterSize {
+    width: 400px;
+}
+
+#ZamknijLogowanie {
+    text-decoration: none;
+    color: #000000;
+}
+
+#ZamknijRejestracje {
+    text-decoration: none;
+    color: #000000;
+}
+
+#LoginBox {
+    text-align: center;
+    margin: 5% auto 5% auto;
+    /*width: 60%;*/
+}
+
+#RegisterBox {
+    text-align: center;
+    margin: 5% auto 5% auto;
+    width: 60%;
+}
+
+
+/*------------* END BODY *----------------------*/
+
+
+/*------------* FOOTER *----------------------*/
+
+#Foot {
+    border-width: 0.5px;
+    min-width: 100%;
+    text-align: left;
+    border-top-style: solid;
+}
+
+footer h5 {
+    font-size: small;
+    font-weight: lighter;
+}
+
+/*------------* END FOOTER *----------------------*/
+
+
+/*------------* OGOLNE *----------------------*/
+.GornaKreska {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+}
+.GornyOdstep {
+    padding-top: 5%;
+}
+
+.DolnyOdstep {
+    padding-bottom: 5%;
+}
+
+.TableHead {
+    color: #333399;
+    border-bottom-style: solid;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #C0C0C0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.KomorkaTabeli {
+    text-align: left;
+}
+
+.SzerokoscBox {
+    width: 150px;
+}
+
+.Brzegi {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 960px;
+    min-width: 580px;
+}
+
+.FloatLeft {
+    float: left;
+}
+
+.FloatRight {
+    float: right;
+}
+
+.Centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.TextBoxWidth {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.Width100 {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.Width80 {
+    min-width: 80%;
+    max-width: 80%;
+}
+
+.Width19 {
+    min-width: 19%;
+    min-width: 19%;
+}
+
+/*------------* ZALOGOWANY *----------------------*/
+#Konto {
+    border-style: solid;
+    border-width: thin;
+    background-color: #CCCCCC;
+}
+
+#WylogujB {
+    font-size: small;
+}
+
+#Wyloguj {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-width: 19.7%;
+    min-width: 19.7%;
+}
+
+#Witaj {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    min-width: 80%;
+    max-width: 80%;
+}
+
+#ZarzadzanieKontem {
+    min-width: 60%;
+    min-width: 60%;
+}
+
+#ZarzadzanieKontemB {
+    font-size: medium;
+}
+
+#MojeOceny {
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-width: 39%;
+    min-width: 39%;
+}
+
+#MojeOcenyB {
+    font-size: medium;
+}
+
+/*------------* END ZALOGOWANY *----------------------*/
