@@ -14,15 +14,18 @@ namespace ProjektMuzyka.Muzyka
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["LogOffInfoStatus"] == null) { Session["LogOffInfoStatus"] = false; }
-            Logowanie.Visible = false;
-            Rejestracja.Visible = false;
-            if ((bool)Session["LogOffInfoStatus"] == true)
+            if (!Page.IsPostBack)
             {
-                Logowanie.Visible = true;
-                LogOffInfo.Visible = true;
+                if (Session["LogOffInfoStatus"] == null) { Session["LogOffInfoStatus"] = false; }
+                Logowanie.Visible = false;
+                Rejestracja.Visible = false;
+                if ((bool)Session["LogOffInfoStatus"] == true)
+                {
+                    Logowanie.Visible = true;
+                    LogOffInfo.Visible = true;
+                }
+                else { LogOffInfo.Visible = false; }
             }
-            else { LogOffInfo.Visible = false; }
         }
 
         protected void Zaloguj_Click(object sender, EventArgs e)
@@ -42,11 +45,14 @@ namespace ProjektMuzyka.Muzyka
         {
             Logowanie.Visible = false;
             Session["LogOffInfoStatus"] = false;
+            LogOffInfo.Visible = false;
         }
 
         protected void ZamknijRejestracje_Click(object sender, EventArgs e)
         {
             Rejestracja.Visible = false;
+            Session["LogOffInfoStatus"] = false;
+            LogOffInfo.Visible = false;
         }
 
         protected void LoginBox_Authenticate(object sender, AuthenticateEventArgs e)

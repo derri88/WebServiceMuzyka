@@ -93,3 +93,4 @@ D:\Programowanie\GitHub\WebServiceMuzyka\ProjektMuzyka\bin\zh-CHS\AjaxControlToo
 D:\Programowanie\GitHub\WebServiceMuzyka\ProjektMuzyka\bin\zh-CHT\AjaxControlToolkit.resources.dll
 D:\Programowanie\GitHub\WebServiceMuzyka\ProjektMuzyka\obj\Debug\ProjektMuzyka.dll
 D:\Programowanie\GitHub\WebServiceMuzyka\ProjektMuzyka\obj\Debug\ProjektMuzyka.pdb
+D:\Programowanie\GitHub\WebServiceMuzyka\ProjektMuzyka\obj\Debug\ProjektMuzyka.csprojResolveAssemblyReference.cache

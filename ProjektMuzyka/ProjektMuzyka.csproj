@@ -53,6 +53,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -207,6 +210,7 @@
     <Content Include="Muzyka\Funkcje.asmx" />
     <Content Include="Muzyka\Main.aspx" />
     <Content Include="Muzyka\Zalogowany\MainZalogowany.aspx" />
+    <Content Include="Muzyka\Zalogowany\MojeOceny.aspx" />
     <Content Include="Muzyka\Zalogowany\ZadzanieKontem.aspx" />
     <Content Include="packages.config" />
     <Content Include="Muzyka\Main.Master" />
@@ -243,7 +247,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
@@ -333,6 +339,13 @@
     <Compile Include="Muzyka\Zalogowany\MainZalogowany.aspx.designer.cs">
       <DependentUpon>MainZalogowany.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Muzyka\Zalogowany\MojeOceny.aspx.cs">
+      <DependentUpon>MojeOceny.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muzyka\Zalogowany\MojeOceny.aspx.designer.cs">
+      <DependentUpon>MojeOceny.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Muzyka\Zalogowany\ZadzanieKontem.aspx.cs">
       <DependentUpon>ZadzanieKontem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -355,13 +368,6 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -371,13 +377,15 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

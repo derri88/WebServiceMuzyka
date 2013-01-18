@@ -28,5 +28,10 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
             Response.Redirect("~/Muzyka/Zalogowany/ZadzanieKontem.aspx");
         }
 
+        protected void MojeOcenyB_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Muzyka/Zalogowany/MojeOceny.aspx");
+        }
+
     }
 }

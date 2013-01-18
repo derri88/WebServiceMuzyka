@@ -21,6 +21,8 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
         }
 
 
+
+
         public void DaneUzytkownika()
         {
             Funkcje Funkcje = new Funkcje();
