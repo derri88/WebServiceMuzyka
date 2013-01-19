@@ -114,7 +114,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 16:28:36</publishTime>
     </File>
     <File Include="bin/ProjektMuzyka.dll">
-      <publishTime>01/16/2013 23:39:53</publishTime>
+      <publishTime>01/19/2013 10:21:03</publishTime>
     </File>
     <File Include="bin/pt/AjaxControlToolkit.resources.dll">
       <publishTime>01/02/2013 16:28:36</publishTime>
@@ -366,7 +366,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 15:58:27</publishTime>
     </File>
     <File Include="Muzyka/CSS/Main.css">
-      <publishTime>01/16/2013 21:20:28</publishTime>
+      <publishTime>01/18/2013 15:26:35</publishTime>
     </File>
     <File Include="Muzyka/Funkcje.asmx">
       <publishTime>01/16/2013 12:05:45</publishTime>
@@ -380,11 +380,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Muzyka/Zalogowany/MainZalogowany.aspx">
       <publishTime>01/03/2013 14:30:17</publishTime>
     </File>
+    <File Include="Muzyka/Zalogowany/MojeOceny.aspx">
+      <publishTime>01/18/2013 22:23:26</publishTime>
+    </File>
     <File Include="Muzyka/Zalogowany/ZadzanieKontem.aspx">
-      <publishTime>01/16/2013 22:49:51</publishTime>
+      <publishTime>01/18/2013 22:30:25</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/Zalogowany.Master">
-      <publishTime>01/16/2013 18:35:17</publishTime>
+      <publishTime>01/18/2013 21:03:14</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>01/02/2013 16:28:37</publishTime>
@@ -477,7 +480,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 17:11:25</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/16/2013 23:39:53</publishTime>
+      <publishTime>01/19/2013 10:21:04</publishTime>
     </File>
     <File Include="WebForm1.aspx">
       <publishTime>01/02/2013 17:11:48</publishTime>

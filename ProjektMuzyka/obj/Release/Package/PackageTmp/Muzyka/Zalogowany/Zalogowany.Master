@@ -28,7 +28,7 @@
                         <asp:LinkButton ID="ZarzadzanieKontemB" runat="server" OnClick="ZarzadzanieKontemB_Click">Zarządzaj kontem</asp:LinkButton>
                     </div>
                     <div id="MojeOceny" class="FloatRight">
-                        <asp:LinkButton ID="MojeOcenyB" runat="server">Moje Oceny</asp:LinkButton>
+                        <asp:LinkButton ID="MojeOcenyB" runat="server" OnClick="MojeOcenyB_Click">Moje Oceny</asp:LinkButton>
                     </div>
                 </div>
             </div>
