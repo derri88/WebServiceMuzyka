@@ -16,6 +16,7 @@ header {
     background-color: #CCCCCC;
     width: 100%;
 }
+
 #LogOffInfo {
     color: #FF0000;
 }
@@ -74,6 +75,11 @@ header {
     color: #000000;
 }
 
+.LinkButton {
+    text-decoration: none;
+    color: #000000;
+}
+
 #LoginBox {
     text-align: center;
     margin: 5% auto 5% auto;
@@ -113,6 +119,7 @@ footer h5 {
     border-top-width: 1px;
     border-top-color: #000000;
 }
+
 .GornyOdstep {
     padding-top: 5%;
 }
@@ -176,7 +183,17 @@ footer h5 {
 
 .Width19 {
     min-width: 19%;
-    min-width: 19%;
+    max-width: 19%;
+}
+
+.Width30 {
+    width: 30%;
+    text-align: right;
+}
+
+.Width70 {
+    width: 70%;
+    text-align: left;
 }
 
 /*------------* ZALOGOWANY *----------------------*/
@@ -226,4 +243,57 @@ footer h5 {
     font-size: medium;
 }
 
+
+#SzukajZespoly {
+    border: 0.5px solid #000080;
+    width: 33%;
+    line-height: 50px;
+}
+
+    #SzukajZespoly Table {
+        width: 100%;
+    }
+
+        /*#SzukajZespoly Table td {
+            text-align: left;
+        }*/
+
+    #SzukajZespoly #NazwaZespolu {
+        width: 100%;
+    }
+
+    #SzukajZespoly #GatunekZespolu {
+        width: 100%;
+    }
+
+#Zarzadzanie {
+    border-style: solid;
+    border-width: thin;
+    width: 80%;
+    text-decoration: none;
+    background-color: #C0C0C0;
+    border-top-color: #000000;
+}
+
+#Zespoly {
+    width: 49.5%;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+#Plyty {
+    width: 49.5%;
+}
+
+#UpdatePanelWyszukaneZespoly {
+    width: 66%;
+}
+
+.RadioButton {
+    font-size: x-small;
+    text-align: center;
+    vertical-align: middle;
+}
+
 /*------------* END ZALOGOWANY *----------------------*/
+

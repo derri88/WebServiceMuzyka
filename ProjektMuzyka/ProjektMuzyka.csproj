@@ -212,6 +212,7 @@
     <Content Include="Muzyka\Zalogowany\MainZalogowany.aspx" />
     <Content Include="Muzyka\Zalogowany\MojeOceny.aspx" />
     <Content Include="Muzyka\Zalogowany\ZadzanieKontem.aspx" />
+    <Content Include="Muzyka\Zalogowany\Zespoly.aspx" />
     <Content Include="packages.config" />
     <Content Include="Muzyka\Main.Master" />
     <Content Include="Muzyka\Zalogowany\Zalogowany.Master" />
@@ -359,6 +360,13 @@
     </Compile>
     <Compile Include="Muzyka\Zalogowany\Zalogowany.Master.designer.cs">
       <DependentUpon>Zalogowany.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Muzyka\Zalogowany\Zespoly.aspx.cs">
+      <DependentUpon>Zespoly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muzyka\Zalogowany\Zespoly.aspx.designer.cs">
+      <DependentUpon>Zespoly.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

@@ -4,7 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <asp:Table ID="MojePlyty" runat="server" CssClass="Centered GornyOdstep">
+    <section id="TabelaPlyty" class="Centered GornaKreska GornyOdstep DolnyOdstep">
+    <asp:Table ID="MojePlyty" runat="server" CssClass="Centered">
         <asp:TableHeaderRow CssClass="TableHead">
             <asp:TableCell>Plyta</asp:TableCell>
             <asp:TableCell>Zespol</asp:TableCell>
@@ -16,4 +17,5 @@
     </asp:Table>
     <asp:TextBox ID="Zmiana" runat="server" TextMode="MultiLine" Width="300" Height="300"></asp:TextBox>
     <asp:Button ID="ZapiszOceny" runat="server" Text="Zapisz oceny" CssClass="FloatRight" OnClick="ZapiszOceny_Click" />
+    </section>
 </asp:Content>

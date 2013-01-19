@@ -87,5 +87,10 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
             Response.Redirect("~/Muzyka/Zalogowany/MojeOceny.aspx");
         }
 
+        protected void ZespolyB_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Muzyka/Zalogowany/Zespoly.aspx");
+        }
+
     }
 }

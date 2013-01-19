@@ -5,6 +5,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace ProjektMuzyka.Muzyka
 {
@@ -91,6 +93,49 @@ namespace ProjektMuzyka.Muzyka
                 DataUser.Close();
                 return 0;
             }
+        }
+
+        [WebMethod]
+        public void DropDownItemsGatunek(DropDownList DDL) // Pobiera gatunki jako itemy do ComboBoxow
+        {
+            string GetGatunki = "SELECT Nazwa FROM Gatunek";
+            SqlDataReader Data = Connect(TypeOfAction.Select, GetGatunki);
+            DDL.Items.Add("");
+            while (Data.Read())
+            {
+                DDL.Items.Add(Data.GetString(0));
+            }
+            Data.Close();
+        }
+
+        [WebMethod]
+        public void DropDownItemsRok(DropDownList DDL) // Rok jako item do ComboBoxow
+        {
+            DDL.Items.Add("");
+            for (int i = 1900; i <= DateTime.Now.Year; i++)
+            {
+                DDL.Items.Add(i.ToString());
+            }
+        }
+
+        [WebMethod]
+        public int CzySzukacTB(TextBox TB)
+        {
+            string S = TB.Text;
+            if (S != "")
+                return 1;
+            else
+                return 0;
+        }
+
+        [WebMethod]
+        public int CzySzukacDDL(DropDownList DDL)
+        {
+            string S = DDL.Text;
+            if (S != "")
+                return 1;
+            else
+                return 0;
         }
     }
 }

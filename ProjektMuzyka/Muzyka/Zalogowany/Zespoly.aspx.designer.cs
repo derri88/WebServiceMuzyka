@@ -10,105 +10,96 @@
 namespace ProjektMuzyka.Muzyka.Zalogowany {
     
     
-    public partial class Zalogowany {
+    public partial class Zespoly {
         
         /// <summary>
-        /// head control.
+        /// NazwaZespolu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.TextBox NazwaZespolu;
         
         /// <summary>
-        /// form1 control.
+        /// GatunekZespolu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.DropDownList GatunekZespolu;
         
         /// <summary>
-        /// ScriptManager1 control.
+        /// RokZalozeniaZespoluOd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.DropDownList RokZalozeniaZespoluOd;
         
         /// <summary>
-        /// Logo control.
+        /// RokZalozeniaZespoluDo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor Logo;
+        protected global::System.Web.UI.WebControls.DropDownList RokZalozeniaZespoluDo;
         
         /// <summary>
-        /// Powitanie control.
+        /// RokKoncowyZespoluOd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Powitanie;
+        protected global::System.Web.UI.WebControls.DropDownList RokKoncowyZespoluOd;
         
         /// <summary>
-        /// WylogujB control.
+        /// RokKoncowyZespoluDo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton WylogujB;
+        protected global::System.Web.UI.WebControls.DropDownList RokKoncowyZespoluDo;
         
         /// <summary>
-        /// ZarzadzanieKontemB control.
+        /// Szukaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ZarzadzanieKontemB;
+        protected global::System.Web.UI.WebControls.Button Szukaj;
         
         /// <summary>
-        /// MojeOcenyB control.
+        /// WyszukaneZespoly control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton MojeOcenyB;
+        protected global::System.Web.UI.UpdatePanel WyszukaneZespoly;
         
         /// <summary>
-        /// ZespolyB control.
+        /// ZespolyDane control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ZespolyB;
+        protected global::System.Web.UI.WebControls.Table ZespolyDane;
         
         /// <summary>
-        /// PlytyB control.
+        /// StatusWyszukiwania control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton PlytyB;
-        
-        /// <summary>
-        /// MainContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox StatusWyszukiwania;
     }
 }
