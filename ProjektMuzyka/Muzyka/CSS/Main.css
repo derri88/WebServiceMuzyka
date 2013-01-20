@@ -144,6 +144,8 @@ footer h5 {
     border-bottom-color: #C0C0C0;
     width: 60%;
     margin: 0 auto;
+    color:#A76600;
+    font-weight:bold;
 }
 
 .KomorkaTabeli {
@@ -213,6 +215,7 @@ footer h5 {
 
 #WylogujB {
     font-size: small;
+    font-style: italic;
 }
 
 #Wyloguj {
@@ -260,6 +263,9 @@ footer h5 {
 
     #SzukajZespoly Table {
         width: 100%;
+        position: relative;
+        left: 100px;
+
     }
 
         /*#SzukajZespoly Table td {
@@ -279,7 +285,7 @@ footer h5 {
     border-width: thin;
     width: 80%;
     text-decoration: none;
-    background-color: #C0C0C0;
+    background-color: #FF9C00;
     border-top-color: #000000;
 }
 
