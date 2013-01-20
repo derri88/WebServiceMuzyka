@@ -1,82 +1,96 @@
 ﻿body {
-   font-family: Verdana;
 }
 
 /*------------* HEADER * -------------------------*/
 header {
-  text-align:center;
+    text-align: center;
 }
-header a
-{
-    color:black;
-    font-size: x-large;
-  }
+
+    header a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+
 #LoginRegister {
-  background-color:#FFC700;
-  width:100%;
+    background-color: #CCCCCC;
+    width: 100%;
 }
+
 #LogOffInfo {
-  color:#FF0000;
+    color: #FF0000;
 }
+
+
+
 #InfoProjekt {
-color:#A79E00;
-  width:60%;
-  background-color: #FFF771;
-  }
+    width: 70%;
+}
 
 /*------------* END HEADER *----------------------*/
 
 
 /*------------* BODY *----------------------*/
 #TrueBody h6 {
-  font-size:4.4px;
-  height:0;
-  width:100%;
-  background-color:#FFC700;
+    height: 0px;
+    width: 100%;
+    font-size: 4.1px;
 }
+
 #SectionLoginRegister {
-  background-color:#FFC700;
+    background-color: #CCCCCC;
 }
+
 #Logowanie {
-  background-color:#FF9C00;
-  border-top-style:solid;
-  border-width:1px;
-  text-align:center;
-  width:100%;
-
+    border-width: 1px;
+    text-align: center;
+    background-color: #CCCCCC;
+    width: 100%;
+    border-top-style: solid;
 }
+
 #Rejestracja {
-  background-color:#FF9C00;
-  border-top-style:solid;
-  border-width:1px;
-  text-align:center;
-  width:100%;
-}
-#Newsy {
-  width:40%;
-  color:#A76600;
-   }
-.LoginRegisterSize {
-       width:60%
-}
-#ZamknijLogowanie {
-  color:#000000;
-  text-decoration:initial;
-}
-#ZamknijRejestracje {
-  color:#000000;
-  text-decoration:initial;
-}
-#LoginBox {
-  margin:5% auto;
-  text-align:center;
-}
-#RegisterBox {
-  margin:5% auto;
-  text-align:center;
-  width:60%;
+    border-width: 1px;
+    text-align: center;
+    background-color: #CCCCCC;
+    width: 100%;
+    border-top-style: solid;
 }
 
+#Newsy {
+    width: 20%;
+}
+
+.LoginRegisterSize {
+    width: 400px;
+}
+
+#ZamknijLogowanie {
+    text-decoration: none;
+    color: #000000;
+}
+
+#ZamknijRejestracje {
+    text-decoration: none;
+    color: #000000;
+}
+
+.LinkButton {
+    text-decoration: none;
+    color: #000000;
+}
+
+#LoginBox {
+    text-align: center;
+    margin: 5% auto 5% auto;
+    /*width: 60%;*/
+}
+
+#RegisterBox {
+    text-align: center;
+    margin: 5% auto 5% auto;
+    width: 60%;
+}
 
 
 /*------------* END BODY *----------------------*/
@@ -85,117 +99,201 @@ color:#A79E00;
 /*------------* FOOTER *----------------------*/
 
 #Foot {
-  border-top-style:solid;
-  border-width:0.5px;
-  min-width:100%;
-  text-align:left;
-  }
+    border-width: 0.5px;
+    min-width: 100%;
+    text-align: left;
+    border-top-style: solid;
+}
+
 footer h5 {
-  font-size:small;
-  font-weight:lighter;
-  position: absolute;
-  bottom: 0px;
-  color: brown;
-  }
+    font-size: small;
+    font-weight: lighter;
+}
 
 /*------------* END FOOTER *----------------------*/
 
 
 /*------------* OGOLNE *----------------------*/
 .GornaKreska {
-  border-top-color:#A76600;
-  border-top-style:solid;
-  border-top-width:1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
 }
+
 .GornyOdstep {
-  padding-top:5%;
+    padding-top: 5%;
 }
+
 .DolnyOdstep {
-  padding-bottom:5%;
+    padding-bottom: 5%;
 }
+
 .TableHead {
-  border-bottom-color:#A76600;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  color:#333399;
-  margin:0 auto;
-  text-align:center;
-  width:60%;
+    color: #333399;
+    border-bottom-style: solid;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #C0C0C0;
+    width: 60%;
+    margin: 0 auto;
 }
+
 .KomorkaTabeli {
-  text-align:left;
+    text-align: left;
 }
+
 .SzerokoscBox {
-  width:150px;
+    width: 150px;
 }
+
 .Brzegi {
-  max-width:960px;
-  min-width:580px;
-  padding-left:20px;
-  padding-right:20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 960px;
+    min-width: 580px;
 }
+
 .FloatLeft {
-  float:left;
+    float: left;
 }
+
 .FloatRight {
-  float:right;
+    float: right;
 }
+
 .Centered {
-  margin:0 auto;
-  text-align:center;
+    text-align: center;
+    margin: 0 auto;
 }
+
 .TextBoxWidth {
-  max-width:120px;
-  min-width:120px;
+    min-width: 120px;
+    max-width: 120px;
 }
+
 .Width100 {
-  max-width:100%;
-  min-width:100%;
+    min-width: 100%;
+    max-width: 100%;
 }
+
 .Width80 {
-  max-width:80%;
-  min-width:80%;
+    min-width: 80%;
+    max-width: 80%;
 }
+
 .Width19 {
-  min-width:19%;
+    min-width: 19%;
+    max-width: 19%;
+}
+
+.Width30 {
+    width: 30%;
+    text-align: right;
+}
+
+.Width70 {
+    width: 70%;
+    text-align: left;
 }
 
 /*------------* ZALOGOWANY *----------------------*/
 #Konto {
-  background-color:#FFC700;
-  border-style:solid;
-  border-width:thin;
-}
-#WylogujB {
-  font-size:small;
-}
-#Wyloguj {
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  border-left-style:solid;
-  border-left-width:1px;
-  min-width:19.7%;
-}
-#Witaj {
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  max-width:80%;
-  min-width:80%;
-}
-#ZarzadzanieKontem {
-  min-width:60%;
-}
-#ZarzadzanieKontemB {
-  font-size:medium;
-}
-#MojeOceny {
-  border-left-style:solid;
-  border-left-width:1px;
-  min-width:39%;
-}
-#MojeOcenyB {
-  font-size:medium;
+    border-style: solid;
+    border-width: thin;
+    background-color: #CCCCCC;
 }
 
+#WylogujB {
+    font-size: small;
+}
+
+#Wyloguj {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-width: 19.7%;
+    min-width: 19.7%;
+}
+
+#Witaj {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    min-width: 80%;
+    max-width: 80%;
+}
+
+#ZarzadzanieKontem {
+    min-width: 60%;
+    min-width: 60%;
+}
+
+#ZarzadzanieKontemB {
+    font-size: medium;
+}
+
+#MojeOceny {
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-width: 39%;
+    min-width: 39%;
+}
+
+#MojeOcenyB {
+    font-size: medium;
+}
+
+
+#SzukajZespoly {
+    border: 0.5px solid #000080;
+    width: 33%;
+    line-height: 50px;
+}
+
+    #SzukajZespoly Table {
+        width: 100%;
+    }
+
+        /*#SzukajZespoly Table td {
+            text-align: left;
+        }*/
+
+    #SzukajZespoly #NazwaZespolu {
+        width: 100%;
+    }
+
+    #SzukajZespoly #GatunekZespolu {
+        width: 100%;
+    }
+
+#Zarzadzanie {
+    border-style: solid;
+    border-width: thin;
+    width: 80%;
+    text-decoration: none;
+    background-color: #C0C0C0;
+    border-top-color: #000000;
+}
+
+#Zespoly {
+    width: 49.5%;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+#Plyty {
+    width: 49.5%;
+}
+
+#UpdatePanelWyszukaneZespoly {
+    width: 66%;
+}
+
+.RadioButton {
+    font-size: x-small;
+    text-align: center;
+    vertical-align: middle;
+}
 
 /*------------* END ZALOGOWANY *----------------------*/
+
