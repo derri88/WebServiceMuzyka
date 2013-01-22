@@ -13,6 +13,15 @@ namespace ProjektMuzyka.Muzyka.Zalogowany {
     public partial class Zespoly {
         
         /// <summary>
+        /// Szukaj control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Szukaj;
+        
+        /// <summary>
         /// NazwaZespolu control.
         /// </summary>
         /// <remarks>

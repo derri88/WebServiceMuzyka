@@ -92,5 +92,10 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
             Response.Redirect("~/Muzyka/Zalogowany/Zespoly.aspx");
         }
 
+        protected void PlytyB_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Muzyka/Zalogowany/Plyty.aspx");
+        }
+
     }
 }

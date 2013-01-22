@@ -211,6 +211,7 @@
     <Content Include="Muzyka\Main.aspx" />
     <Content Include="Muzyka\Zalogowany\MainZalogowany.aspx" />
     <Content Include="Muzyka\Zalogowany\MojeOceny.aspx" />
+    <Content Include="Muzyka\Zalogowany\Plyty.aspx" />
     <Content Include="Muzyka\Zalogowany\ZadzanieKontem.aspx" />
     <Content Include="Muzyka\Zalogowany\Zespoly.aspx" />
     <Content Include="packages.config" />
@@ -346,6 +347,13 @@
     </Compile>
     <Compile Include="Muzyka\Zalogowany\MojeOceny.aspx.designer.cs">
       <DependentUpon>MojeOceny.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Muzyka\Zalogowany\Plyty.aspx.cs">
+      <DependentUpon>Plyty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muzyka\Zalogowany\Plyty.aspx.designer.cs">
+      <DependentUpon>Plyty.aspx</DependentUpon>
     </Compile>
     <Compile Include="Muzyka\Zalogowany\ZadzanieKontem.aspx.cs">
       <DependentUpon>ZadzanieKontem.aspx</DependentUpon>

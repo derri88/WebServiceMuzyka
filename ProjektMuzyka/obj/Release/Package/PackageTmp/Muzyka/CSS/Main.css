@@ -1,4 +1,5 @@
 ﻿body {
+    font-family: Verdana;
 }
 
 /*------------* HEADER * -------------------------*/
@@ -13,7 +14,7 @@ header {
     }
 
 #LoginRegister {
-    background-color: #CCCCCC;
+    background-color: #FFC700;
     width: 100%;
 }
 
@@ -24,45 +25,72 @@ header {
 
 
 #InfoProjekt {
-    width: 70%;
+    border-style: 0;
+    border-width: 0px;
+    color: #000000;
+    width: 60%;
+    background-color: #FFFFFF;
+}
+
+#oProjekcie {
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 3px;
+    background-color: #F2D87B;
 }
 
 /*------------* END HEADER *----------------------*/
 
 
 /*------------* BODY *----------------------*/
+.News {
+    margin: 5px;
+    border: 0.5px solid #000080;
+    background-color: #D1DCED;
+    color: #000000;
+}
+
+    .News h1 {
+    color: #FF6600;
+    font-size: large;
+}
+
 #TrueBody h6 {
-    height: 0px;
-    width: 100%;
-    font-size: 4.1px;
+  font-size:4.4px;
+  height:0;
+  width:100%;
+  background-color:#FFC700;
 }
 
 #SectionLoginRegister {
-    background-color: #CCCCCC;
+    background-color: #FFC700;
 }
 
 #Logowanie {
-    border-width: 1px;
-    text-align: center;
-    background-color: #CCCCCC;
-    width: 100%;
-    border-top-style: solid;
+  background-color:#FF9C00;
+  border-top-style:solid;
+  border-width:1px;
+  text-align:center;
+  width:100%;
 }
 
 #Rejestracja {
-    border-width: 1px;
-    text-align: center;
-    background-color: #CCCCCC;
-    width: 100%;
-    border-top-style: solid;
+  background-color:#FF9C00;
+  border-top-style:solid;
+  border-width:1px;
+  text-align:center;
+  width:100%;
 }
 
 #Newsy {
-    width: 20%;
+    border: 0.5px solid #000000;
+    width: 37%;
+    color: #A76600;
+    background-color: #FFF3E1;
 }
 
 .LoginRegisterSize {
-    width: 400px;
+  width:60%
 }
 
 #ZamknijLogowanie {
@@ -99,15 +127,18 @@ header {
 /*------------* FOOTER *----------------------*/
 
 #Foot {
-    border-width: 0.5px;
+    border-width: 1px;
     min-width: 100%;
     text-align: left;
     border-top-style: solid;
 }
 
 footer h5 {
-    font-size: small;
-    font-weight: lighter;
+    font-size:small;
+  font-weight:lighter;
+  /*position: absolute;*/
+  bottom: 0px;
+  color: brown;
 }
 
 /*------------* END FOOTER *----------------------*/
@@ -121,21 +152,23 @@ footer h5 {
 }
 
 .GornyOdstep {
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .DolnyOdstep {
-    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .TableHead {
-    color: #333399;
+    color: #A76600;
     border-bottom-style: solid;
     text-align: center;
     border-bottom-width: 1px;
     border-bottom-color: #C0C0C0;
     width: 60%;
     margin: 0 auto;
+    color:#A76600;
+    /*font-weight:bold;*/
 }
 
 .KomorkaTabeli {
@@ -196,15 +229,22 @@ footer h5 {
     text-align: left;
 }
 
+.Info {
+    font-size: small;
+    color: #FF0000;
+    font-weight: normal;
+}
+
 /*------------* ZALOGOWANY *----------------------*/
 #Konto {
-    border-style: solid;
-    border-width: thin;
-    background-color: #CCCCCC;
+ background-color:#FFC700;
+  border-style:solid;
+  border-width:thin;
 }
 
 #WylogujB {
     font-size: small;
+    font-style: italic;
 }
 
 #Wyloguj {
@@ -245,14 +285,19 @@ footer h5 {
 
 
 #SzukajZespoly {
-    border: 0.5px solid #000080;
+    border-color: #000080;
     width: 33%;
     line-height: 50px;
+    border-right-style: solid;
+    border-right-width: 1px;
 }
 
     #SzukajZespoly Table {
-        width: 100%;
-    }
+    width: 100%;
+    /*position: relative;*/
+    /*left: 100px;*/
+    font-size: small;
+}
 
         /*#SzukajZespoly Table td {
             text-align: left;
@@ -271,7 +316,7 @@ footer h5 {
     border-width: thin;
     width: 80%;
     text-decoration: none;
-    background-color: #C0C0C0;
+    background-color: #FF9C00;
     border-top-color: #000000;
 }
 
@@ -293,6 +338,33 @@ footer h5 {
     font-size: x-small;
     text-align: center;
     vertical-align: middle;
+}
+
+#ZleDaneEdycji {
+    font-size: x-small;
+    color: #FF0000;
+    width: 100%;
+    line-height: normal;
+}
+
+#InfoEdycja {
+    font-size: x-small;
+    color: #FF0000;
+    width: 100%;
+    line-height: normal;
+}
+
+#EdycjaZespolNaglowek {
+    font-size: x-small;
+    width: 100%;
+}
+
+#PlytySite {
+    background-color: #FFCC00;
+    color: #FF0000;
+    margin: 30px;
+    font-size: 60px;
+    text-align: center;
 }
 
 /*------------* END ZALOGOWANY *----------------------*/

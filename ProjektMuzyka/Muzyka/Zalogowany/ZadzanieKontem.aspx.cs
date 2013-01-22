@@ -105,6 +105,7 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
                                         "', Miasto = '" + Miasto.Text + "' " +
                                         "where Users.ID_user = " + ID;
                 SqlDataReader Data = Funkcje.Connect(Funkcje.TypeOfAction.Update, UpdateUser);
+                TwojeDaneInfo.Visible = true;
             //}
         }
 

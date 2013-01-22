@@ -299,8 +299,8 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
                 b = false;
             if (EdytujRokZalozenia.Text == "")
                 b = false;
-            if (EdytujRokKoncowy.Text == "")
-                b = false;
+            //if (EdytujRokKoncowy.Text == "")
+            //    b = false;
             if (EdytujRokKoncowy.SelectedIndex != 0 && EdytujRokKoncowy.SelectedIndex <= EdytujRokZalozenia.SelectedIndex)
                 b = false;
 
@@ -332,6 +332,11 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
                                                             ", " + EndRokI + ")";
                 Funkcje.Connect(Funkcje.TypeOfAction.Update, InsertZespol);
                 InfoEdycjaText.Text = "Dodano nowy zespół o nazwie: " + EdytujNazwa.Text;
+                string script1 = "<script type =\"text/javascript\" >alert(\"Dodano nowy zespół o nazwie: " + EdytujNazwa.Text + "\");</script>";
+                Type csType = this.GetType();
+                ClientScript.RegisterClientScriptBlock(csType, "DodajAllert", script1);
+
+
             }
             if (b)
             {

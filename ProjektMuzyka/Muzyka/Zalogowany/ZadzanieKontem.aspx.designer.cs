@@ -110,5 +110,14 @@ namespace ProjektMuzyka.Muzyka.Zalogowany {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ZapiszZmiany;
+        
+        /// <summary>
+        /// TwojeDaneInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TwojeDaneInfo;
     }
 }

@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <section id="TabelaDanych" class="Centered GornaKreska GornyOdstep DolnyOdstep">
-        <div class="TableHead">Twoje dane:</div>
+        <div class="TableHead"><h3 class="GornyOdstep">Twoje dane:</h3></div>
         <asp:Table ID="TwojeDane" CssClass="Centered" runat="server">
             <asp:TableRow>
                 <asp:TableCell CssClass="KomorkaTabeli">Nick</asp:TableCell>
@@ -62,6 +62,8 @@
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
+        <h6>&nbsp</h6>
             <asp:Button ID="ZapiszZmiany" runat="server" Text="Zapisz zmiany" OnClick="ZapiszZmiany_Click" />
+        <h6> <asp:Label ID="TwojeDaneInfo" CssClass="Info" runat="server" Text="Zapisano Twoje dane osobowe." Visible="false"></asp:Label></h6>
     </section>
 </asp:Content>

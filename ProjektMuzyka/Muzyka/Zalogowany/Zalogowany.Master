@@ -31,10 +31,11 @@
         </asp:ScriptManager>
 
 <%--        <script type="text/javascript">
-            function ButtonClick(buttonId) {
-                alert("Button " + buttonId + " clicked from javascript");
+            function DodanoAllert(Nazwa) {
+                alert("Dodano nowy zespół o nazwie: " + Nazwa);
             }
         </script>--%>
+
         <header>
             <div>
                 <div class="FloatLeft">
@@ -69,7 +70,7 @@
                     <td id="Zespoly">
                         <asp:LinkButton ID="ZespolyB" CssClass="LinkButton" runat="server" OnClick="ZespolyB_Click">Zespoly</asp:LinkButton></td>
                     <td id="Plyty">
-                        <asp:LinkButton ID="PlytyB" CssClass="LinkButton" runat="server">Plyty</asp:LinkButton></td>
+                        <asp:LinkButton ID="PlytyB" CssClass="LinkButton" runat="server" OnClick="PlytyB_Click">Plyty</asp:LinkButton></td>
                 </tr>
             </table>
             <h6>&nbsp</h6>

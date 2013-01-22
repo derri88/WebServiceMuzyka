@@ -80,10 +80,11 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
                      "set Ocena = " + OcenaPlyty +
                     "where Ocena.ID_plyta = " + IdPlyta[NrRek-1] + " and Ocena.ID_user = " + Session["ID"];
                     SqlDataReader Data = Funkcje.Connect(Funkcje.TypeOfAction.Update, UpdateOcena);
-                    Zmiana.Text = Zmiana.Text + "Zaaktualizowano wiersz numer: " + NrRek + " z wartości: " + PorownanieOceny.Cells[NrRek - 1].Text + " na wartość: " + OcenaPlyty + "\n";
+                    //Zmiana.Text = Zmiana.Text + "Zaaktualizowano wiersz numer: " + NrRek + " z wartości: " + PorownanieOceny.Cells[NrRek - 1].Text + " na wartość: " + OcenaPlyty + "\n";
                 }
                 NrRek = NrRek + 1;
             }
+            MojeOcenyInfo.Visible = true;
         }
     }
 }

@@ -1,22 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Muzyka/Zalogowany/Zalogowany.Master" AutoEventWireup="true" CodeBehind="Zespoly.aspx.cs" Inherits="ProjektMuzyka.Muzyka.Zalogowany.Zespoly" %>
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style1 {
-            width: 30%;
-            text-align: right;
-            height: 54px;
-        }
-        .auto-style2 {
-            width: 70%;
-            text-align: left;
-            height: 54px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="GornyOdstep GornaKreska">
-        <section id="SzukajZespoly" class="FloatLeft GornyOdstep">
+
+    <script type="text/javascript">
+        function DodanoAllert(Nazwa) {
+            alert("Dodano nowy zespół o nazwie: " + Nazwa);
+        }
+    </script>
+
+    <section class="GornyOdstep">
+        <section id="SzukajZespoly" class="FloatLeft GornaKreska">
+            <asp:Label ID="Szukaj" runat="server" Text="Szukaj"></asp:Label>
             <table>
                 <tr>
                     <td class="Width30">Nazwa:</td>
@@ -59,8 +56,8 @@
             <section id="InfoEdycja">
                 <asp:Label ID="InfoEdycjaText" runat="server" Visible="false"></asp:Label>
             </section>
-            <asp:Panel ID="EdycjaZespol" runat="server" Visible="false">
-                <asp:Label ID="EdycjaZespolNaglowek" CssClass="GornyOdstep GornaKreska Centered" runat="server">Edytuj dane zespołu</asp:Label>
+            <asp:Panel ID="EdycjaZespol" runat="server" CssClass="GornaKreska" Visible="false">
+                <asp:Label ID="EdycjaZespolNaglowek" CssClass="GornyOdstep Centered" runat="server">Edytuj dane zespołu</asp:Label>
                 <table class="GornaKreska GornyOdstep Centered">
                     <tr>
                         <td class="Width30">Nazwa:</td>
@@ -73,9 +70,8 @@
                             <asp:DropDownList ID="EdytujGatunek" runat="server"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td class="auto-style1">Rok założenia:</td>
-                        <td class="auto-style2">
-                            <asp:DropDownList ID="EdytujRokZalozenia" runat="server"></asp:DropDownList></td>
+                        <td class="Width30">Rok założenia:</td>
+                        <td class="Width70"><asp:DropDownList ID="EdytujRokZalozenia" runat="server"></asp:DropDownList></td>
                     </tr>
                     <tr>
                         <td class="Width30">Rok końcowy:</td>
@@ -115,7 +111,8 @@
             <asp:SqlDataSource ID="SqlDataLiczbaPlyt" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"></asp:SqlDataSource>
             <asp:SqlDataSource ID="SqlDataZespoly" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>"></asp:SqlDataSource>
             <section class="Centered GornyOdstep GornaKreska">
-                <asp:GridView ID="ZespolyWidok" runat="server" CssClass="Centered" AutoGenerateColumns="false" DataSourceID="SqlDataZespoly" AllowPaging="True" AllowSorting="True" OnSelectedIndexChanged="ZespolyWidok_SelectedIndexChanged">
+                <h6>&nbsp;</h6>
+                <asp:GridView ID="ZespolyWidok" runat="server" CssClass="Centered" AutoGenerateColumns="False" DataSourceID="SqlDataZespoly" AllowSorting="True" OnSelectedIndexChanged="ZespolyWidok_SelectedIndexChanged">
 
                     <Columns>
                         <asp:BoundField DataField="Nazwa" HeaderText="Zespol" ReadOnly="True" />

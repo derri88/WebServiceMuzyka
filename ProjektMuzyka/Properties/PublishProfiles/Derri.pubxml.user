@@ -114,7 +114,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 16:28:36</publishTime>
     </File>
     <File Include="bin/ProjektMuzyka.dll">
-      <publishTime>01/19/2013 18:54:58</publishTime>
+      <publishTime>01/22/2013 17:32:51</publishTime>
     </File>
     <File Include="bin/pt/AjaxControlToolkit.resources.dll">
       <publishTime>01/02/2013 16:28:36</publishTime>
@@ -366,31 +366,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 15:58:27</publishTime>
     </File>
     <File Include="Muzyka/CSS/Main.css">
-      <publishTime>01/19/2013 17:03:55</publishTime>
+      <publishTime>01/22/2013 17:31:47</publishTime>
     </File>
     <File Include="Muzyka/Funkcje.asmx">
       <publishTime>01/16/2013 12:05:45</publishTime>
     </File>
     <File Include="Muzyka/Main.aspx">
-      <publishTime>01/02/2013 21:45:44</publishTime>
+      <publishTime>01/22/2013 13:39:13</publishTime>
     </File>
     <File Include="Muzyka/Main.Master">
-      <publishTime>01/16/2013 18:09:45</publishTime>
+      <publishTime>01/22/2013 15:17:44</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/MainZalogowany.aspx">
-      <publishTime>01/03/2013 14:30:17</publishTime>
+      <publishTime>01/22/2013 14:55:39</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/MojeOceny.aspx">
-      <publishTime>01/19/2013 12:54:31</publishTime>
+      <publishTime>01/22/2013 13:58:20</publishTime>
+    </File>
+    <File Include="Muzyka/Zalogowany/Plyty.aspx">
+      <publishTime>01/22/2013 17:32:36</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/ZadzanieKontem.aspx">
-      <publishTime>01/19/2013 12:54:35</publishTime>
+      <publishTime>01/22/2013 14:09:57</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/Zalogowany.Master">
-      <publishTime>01/19/2013 14:18:12</publishTime>
+      <publishTime>01/22/2013 17:30:51</publishTime>
     </File>
     <File Include="Muzyka/Zalogowany/Zespoly.aspx">
-      <publishTime>01/19/2013 18:52:27</publishTime>
+      <publishTime>01/22/2013 17:32:39</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>01/02/2013 16:28:37</publishTime>
@@ -477,13 +480,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2013 15:58:29</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>01/02/2013 19:18:59</publishTime>
+      <publishTime>01/21/2013 11:14:56</publishTime>
     </File>
     <File Include="Site1.Master">
       <publishTime>01/02/2013 17:11:25</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/19/2013 18:54:59</publishTime>
+      <publishTime>01/22/2013 17:32:52</publishTime>
     </File>
     <File Include="WebForm1.aspx">
       <publishTime>01/02/2013 17:11:48</publishTime>

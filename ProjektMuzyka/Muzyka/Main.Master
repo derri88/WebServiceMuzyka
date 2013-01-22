@@ -14,7 +14,7 @@
         <header>
             <div>
                 <div class="FloatLeft">
-                    <a id="Logo" runat="server" href="~/">Projekt Grupowy</a>
+                    <a id="Logo" runat="server" href="~/">Projekt Muzyka</a>&nbsp;
                 </div>
                 <div class=" FloatRight LoginRegisterSize">
                     <table id="LoginRegister">
@@ -61,8 +61,8 @@
                 <asp:Panel ID="Logowanie" runat="server">
                     <asp:Label ID="LogOffInfo" runat="server" Visible="False">Zostałeś wylogowany!</asp:Label>
                     <asp:Login ID="LoginBox" runat="server" TitleText="" OnAuthenticate="LoginBox_Authenticate">
-
                     </asp:Login>
+
                          <asp:LinkButton ID="ZamknijLogowanie" runat="server" CssClass="FloatRight" OnClick="ZamknijLogowanie_Click">Zamknij</asp:LinkButton>
                 </asp:Panel>
 
@@ -73,8 +73,8 @@
                     <asp:LinkButton ID="ZamknijRejestracje" runat="server" CssClass="FloatRight" OnClick="ZamknijRejestracje_Click">Zamknij</asp:LinkButton>
                 </asp:Panel>
             </div>
-
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+             <h6>&nbsp</h6>
+            <asp:ContentPlaceHolder ID="MainContent"  runat="server">
             </asp:ContentPlaceHolder>
             <h6>&nbsp</h6>
         </div>
