@@ -113,7 +113,7 @@ header {
 footer h5 {
     font-size:small;
   font-weight:lighter;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0px;
   color: brown;
 }
@@ -145,7 +145,7 @@ footer h5 {
     width: 60%;
     margin: 0 auto;
     color:#A76600;
-    font-weight:bold;
+    /*font-weight:bold;*/
 }
 
 .KomorkaTabeli {
@@ -262,11 +262,11 @@ footer h5 {
 }
 
     #SzukajZespoly Table {
-        width: 100%;
-        position: relative;
-        left: 100px;
-
-    }
+    width: 100%;
+    /*position: relative;*/
+    /*left: 100px;*/
+    font-size: small;
+}
 
         /*#SzukajZespoly Table td {
             text-align: left;
@@ -307,6 +307,25 @@ footer h5 {
     font-size: x-small;
     text-align: center;
     vertical-align: middle;
+}
+
+#ZleDaneEdycji {
+    font-size: x-small;
+    color: #FF0000;
+    width: 100%;
+    line-height: normal;
+}
+
+#InfoEdycja {
+    font-size: x-small;
+    color: #FF0000;
+    width: 100%;
+    line-height: normal;
+}
+
+#EdycjaZespolNaglowek {
+    font-size: x-large;
+    width: 100%;
 }
 
 /*------------* END ZALOGOWANY *----------------------*/

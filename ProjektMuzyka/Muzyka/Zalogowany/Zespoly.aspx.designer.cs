@@ -67,39 +67,138 @@ namespace ProjektMuzyka.Muzyka.Zalogowany {
         protected global::System.Web.UI.WebControls.DropDownList RokKoncowyZespoluDo;
         
         /// <summary>
-        /// Szukaj control.
+        /// DodajZespol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Szukaj;
+        protected global::System.Web.UI.WebControls.Button DodajZespol;
         
         /// <summary>
-        /// WyszukaneZespoly control.
+        /// SzukajZespol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel WyszukaneZespoly;
+        protected global::System.Web.UI.WebControls.Button SzukajZespol;
         
         /// <summary>
-        /// ZespolyDane control.
+        /// InfoEdycjaText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table ZespolyDane;
+        protected global::System.Web.UI.WebControls.Label InfoEdycjaText;
         
         /// <summary>
-        /// StatusWyszukiwania control.
+        /// EdycjaZespol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StatusWyszukiwania;
+        protected global::System.Web.UI.WebControls.Panel EdycjaZespol;
+        
+        /// <summary>
+        /// EdycjaZespolNaglowek control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EdycjaZespolNaglowek;
+        
+        /// <summary>
+        /// EdytujNazwa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EdytujNazwa;
+        
+        /// <summary>
+        /// EdytujGatunek control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList EdytujGatunek;
+        
+        /// <summary>
+        /// EdytujRokZalozenia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList EdytujRokZalozenia;
+        
+        /// <summary>
+        /// EdytujRokKoncowy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList EdytujRokKoncowy;
+        
+        /// <summary>
+        /// ZleDaneEdycjiText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ZleDaneEdycjiText;
+        
+        /// <summary>
+        /// EdycjaAnuluj control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EdycjaAnuluj;
+        
+        /// <summary>
+        /// EdycjaZapisz control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EdycjaZapisz;
+        
+        /// <summary>
+        /// SqlDataLiczbaPlyt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataLiczbaPlyt;
+        
+        /// <summary>
+        /// SqlDataZespoly control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataZespoly;
+        
+        /// <summary>
+        /// ZespolyWidok control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView ZespolyWidok;
     }
 }

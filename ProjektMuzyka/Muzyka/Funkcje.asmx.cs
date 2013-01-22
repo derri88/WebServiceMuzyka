@@ -21,6 +21,7 @@ namespace ProjektMuzyka.Muzyka
     public class Funkcje : System.Web.Services.WebService
     {
         public static int ID_zalogowanego;
+        public static int InsertOrUpdate = 0;
 
         [WebMethod]
         public string HelloWorld()
@@ -41,6 +42,7 @@ namespace ProjektMuzyka.Muzyka
         {
             string ConnectionString = "Server=ProjektGrupowy.mssql.somee.com; Database=ProjektGrupowy; User ID=derri_SQLLogin_1; Password=pe2fjz4yh9;";
             SqlConnection Conn = new SqlConnection(ConnectionString);
+            
             Conn.Open();
 
             SqlDataReader Data;
