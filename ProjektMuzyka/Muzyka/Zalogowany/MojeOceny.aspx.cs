@@ -32,10 +32,14 @@ namespace ProjektMuzyka.Muzyka.Zalogowany
                 "inner join Zespol on Zespol.ID_zespol = Plyta.ID_zespol " +
                 "inner join Gatunek on Gatunek.ID_gatunek = Plyta.ID_gatunek " +
                 "where Ocena.ID_user = " + ID;
+            SqlDataReader DataCount = Funkcje.Connect(Funkcje.TypeOfAction.Select, GetDanePlyty);
             SqlDataReader Data = Funkcje.Connect(Funkcje.TypeOfAction.Select, GetDanePlyty);
 
             int NumerOcena = 0;
-            IdPlyta = new int[Data.FieldCount];
+            int IloscWierszy = 0;
+            while (DataCount.Read()){IloscWierszy++;}
+
+            IdPlyta = new int[IloscWierszy];
             while (Data.Read())
             {
                 TableRow TR = new TableRow();
